@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <!DOCTYPE html>
+<html>
+<head>
+  <title>Navbar</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</head>
+<body background="images\hemu35.jpg">
+<nav class="navbar navbar-expand-sm navbar-dark">
+  <a class="navbar-brand" href="#">
+     <img  src="images\nav image.jpg" width="30" height="30" alt="">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span> 
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="images.html">Gallary</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="card.html">Card</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="" aria-label="Search">
+      <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+
+
+ 
+<div style="margin-top: 15px;   " align="center" class="container">
+  <div  class="card" style="width:500px;  border: solid blue 2px; ">
+    <!-- <img style="height: 350px; border:solid red 5px; " class="card-img-top" src="images\hemu2.jpg" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title">John Doe</h4>
+      <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+      <a href="#" class="btn btn-primary">See Profile</a>
+    </div> -->
+
+
+
+    <!-- Rotating card -->
+<div   class="card-wrapper">
+  <div style="background-color: #00bcd4; background-image: url(images/hemu40.jpg);background-position: center;" id="card-1" class="card card-rotating text-center">
+
+    <!-- Front Side -->
+    <div class="face front">
+
+      <!-- Image-->
+      <div  class="card-up">
+       
+      </div>
+
+      <!-- Avatar -->
+      <div class="avatar mx-auto white"><img src=" images\hemu6.jpg" class="rounded-circle"
+          alt="Sample avatar image.">
+      </div>
+
+      <!-- Content -->
+      <div class="card-body">
+        <h3 class="font-weight-bold mb-3">🐱‍🏍Hemanth Tarun🐱‍🏍</h3>
+        <p class="font-weight-bold blue-text">Full Stack Developer</p>
+        <!-- Triggering button -->
+        <div class="card">
+
+  <!-- Card image -->
+  <div class="view overlay">
+    <img class="card-img-top" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg"
+      alt="Card image cap">
+    <a href="#!">
+      <div class="mask rgba-white-slight"></div>
+    </a>
+  </div>
+
+  <!-- Card content -->
+  <div class="card-body">
+
+    <!-- Title -->
+    <h4 class="card-title">My Works</h4>
+    <!-- Text -->
+    <p class="card-text">please click the below to view my git hub</p>
+    <!-- Button -->
+    <a href="https://github.com/MANNEMHEMANTHTARUN" class="btn btn-primary">Click Me</a>
+
+  </div>
+
+</div>
+<!-- Card -->
+      </div>
+    </div>
+    <!-- Front Side -->
+
+    <!-- Back Side -->
+   
+        <!-- Content -->
+        <h4 class="font-weight-bold mb-0">About me</h4>
+        <hr>
+        <p>
+          <h5>I am a CSE student at QIS Institution.</h5><br>
+          ❤ To Code 👩‍💻 <br>  
+          ❤ To Cricket 🏏<br>
+          ❤ To Music 🎵 
+        </p> 
+          <hr>
+          <!-- Social Icons -->
+          <ul class="list-inline py-2">
+            <li class="list-inline-item"><a class="p-2 fa-lg fb-ic"><i class="fab fa-facebook-f"></i></a></li>
+            <li class="list-inline-item"><a class="p-2 fa-lg tw-ic"><i class="fab fa-twitter"></i></a></li>
+            <li class="list-inline-item"><a class="p-2 fa-lg gplus-ic"><i class="fab fa-google-plus-g"></i></a></li>
+            <li class="list-inline-item"><a class="p-2 fa-lg li-ic"><i class="fab fa-linkedin-in"></i></a></li>
+          </ul>
+          <!-- Triggering button -->
+          <a class="rotate-btn" data-card="card-1"><i class="fas fa-undo"></i> <h3 style="color: yellow;"> The End </h3></a>
+
+      </div>
+    </div>
+    <!-- Back Side -->
+
+  </div>
+</div>
+<!-- Rotating card -->
+  </div>
+  <br>
+  
+
+</body>
+</html>

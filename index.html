@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Navbar</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<style type="text/css">
+  
+
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+
+  .wrapper i {
+    padding: 10px;
+    text-shadow: 0px 6px 8px rgba(0, 0, 0, 0.6);
+    transition: all ease-in-out 150ms;
+  }
+  .wrapper a:nth-child(1) {
+    color: #dd4b39;
+  }
+  .wrapper a:nth-child(2) {
+    color: #4867AA;
+  }
+  .wrapper a:nth-child(3) {
+    color: #1DA1F2;
+  }
+  .wrapper i:hover {
+    margin-top: -3px;
+    text-shadow: 0px 14px 10px rgba(0, 0, 0, 0.4);
+  }
+ 
+ </style>
+
+</head>
+<body background="images\hemu35.jpg">
+<nav class="navbar navbar-expand-sm navbar-dark ">
+  <a class="navbar-brand" href="#">
+     <img src="images\nav image.jpg" width="30" height="30" alt="">
+  </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span> 
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="images.html">Images</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="card.html">Card</a>
+          <div class="dropdown-divider"></div>    
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="" aria-label="Search">
+      <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+
+    <div class="container d-flex align-items-center flex-column">
+
+      <!-- Masthead Avatar Image -->
+      <img style="border-radius: 100%; width: 200px;" class="masthead-avatar mb-5" src="images\hemu1.jpg" alt="">
+
+      <!-- Masthead Heading -->
+      <h1 class="masthead-heading text-uppercase mb-0" style="font-style: italic;">Hemanth Tarun</h1>
+
+      <!-- Icon Divider -->
+      <div class="divider-custom divider-light">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div>
+
+      <!-- Masthead Subheading -->
+      <p class="masthead-subheading font-weight-light mb-0">Full Stack Developer - Web Designer - Illustrator</p>
+
+    </div>
+ 
+      
+     
+
+
+      <!-- About Section Content -->
+      <div class="row">
+        <div class="col-lg-4 ml-auto">
+          <p class="lead">
+            My self Hemanth Tarun Mannem I am form Ongole,Prakasam dist,Ap. Now I am pursuing bachelor of engineering from QIS Institute of Technology,Ongole. My branch is Computer science and  engineering.<br>I talk about my family background we are two siblings. one brother and mother and father. Father is a Business Man and  mother is a housewife. My hobbies are playing cricket, holiball. Basketball. My strength is positive thinking, hard working.
+
+          </p>
+        </div>
+        <div class="col-lg-4 mr-auto">
+          <p class="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
+        </div>
+      </div>
+
+      <!-- About Section Button -->
+      <div class="text-center mt-4">
+        <a class="btn btn-xl btn-outline-light" href="https://startbootstrap.com/themes/freelancer/">
+          <i class="fas fa-download mr-2"></i>
+          Free Download!
+        </a>
+      </div>
+
+ 
+  <section class="page-section" id="contact">
+    <div class="container">
+
+      <!-- Contact Section Heading -->
+      <h2  class="page-section-heading text-center text-uppercase text-secondary mb-0">Contact Me</h2>
+
+      <!-- Icon Divider -->
+      <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div>
+
+      <!-- Contact Section Form -->
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+          
+        </div>
+      </div>
+
+
+  <!-- Footer -->
+  <footer class="footer text-center">
+    <div class="container">
+      <div class="row">
+
+        <!-- Footer Location -->
+        <div class="col-lg-4 mb-5 mb-lg-0">
+          <h4 class="text-uppercase mb-4">Location</h4>
+          <p class="lead mb-0">2215 John Daniel Drive
+            <br>Clark, MO 65243</p>
+        </div>
+
+        <!-- Footer Social Icons -->
+        <div class="col-lg-4 mb-5 mb-lg-0">
+          <h4 class="text-uppercase mb-4">Around the Web</h4>
+          
+            <div class="wrapper">
+              <a href="http://www.google.com"><i class="fa fa-3x fa-google-plus"></i></a>
+              <a href="http://www.facebook.com"><i class="fa fa-3x fa-facebook-square"></i></a>
+              <a href="http://www.twitter.com"><i class="fa fa-3x fa-twitter-square"></i></a>
+            </div>
+        </div>
+
+        <!-- Footer About Text -->
+        <div class="col-lg-4">
+          <h4 class="text-uppercase mb-4">About Freelancer</h4>
+          <p class="lead mb-0">Freelance is a free to use, MIT licensed Bootstrap theme created by
+            <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+</body>
+</html>
